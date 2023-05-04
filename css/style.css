@@ -133,3 +133,13 @@ h1 {
     text-align:center;
     margin: 0 auto;
 }
+
+img {
+    height: 50px;
+    width: 170px;
+    padding: center;
+    flex-direction: column;
+    text-align:center;
+    margin: 0 auto;
+
+}
