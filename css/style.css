@@ -137,10 +137,10 @@ h1 {
 img {
     /*height: 50px;
     width: 170px;*/
-    margin-top: 30%;
     padding: center;
     flex-direction: column;
     text-align:center;
     margin: 0 auto;
+    margin-top: 30%;
 
 }
