@@ -124,7 +124,7 @@ div {
     flex-direction: column;
 }
 
-.h1 {
+h1 {
     padding: center;
     flex-direction: column;
     text-align:center;
