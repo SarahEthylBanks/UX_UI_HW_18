@@ -126,6 +126,7 @@ div {
 
 .h1 {
     padding: center;
+    flex-direction: column;
     text-align:center;
     margin: 0 auto;
 }
