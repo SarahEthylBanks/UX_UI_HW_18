@@ -122,5 +122,10 @@ footer ul {
 div {
     display: flex;
     flex-direction: column;
+}
 
+.h1 {
+    padding: center;
+    text-align:center;
+    margin: 0 auto;
 }
