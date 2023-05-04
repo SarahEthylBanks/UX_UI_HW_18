@@ -101,7 +101,7 @@ footer ul {
     display: flex;
     width: 33%;
     padding: 15%;
-    flex-direction: row;
+    flex-direction: column;
     text-align:center;
 }
 div {
