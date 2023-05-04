@@ -106,7 +106,7 @@ footer ul {
 
 
     display: grid; 
-    grid-template-areas: 'BurntLatte NonProfit NonProfit';
+    /*grid-template-areas: 'BurntLatte NonProfit NonProfit';*/
     width: 33%;
     padding: 15%;
     flex-direction: column;
