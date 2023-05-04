@@ -121,6 +121,7 @@ footer ul {
 }
 div {
     display: flex;
+    padding: center;
     flex-direction: column;
     text-align:center;
     margin: 0 auto;
