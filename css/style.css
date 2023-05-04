@@ -99,5 +99,5 @@ footer ul {
 }
 div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
