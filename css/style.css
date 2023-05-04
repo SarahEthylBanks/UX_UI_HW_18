@@ -113,7 +113,7 @@ footer ul {
     /*grid-auto-rows: minmax(100px, auto);*/
     grid-auto-rows: 50px;
     /*grid-template-columns: 200px 200px 200px;*/
-    grid-template-areas: 'BurntLatte NonProfit NonProfit';
+    /*grid-template-areas: 'BurntLatte NonProfit NonProfit';*/
 
 }
 div {
