@@ -90,4 +90,14 @@ footer ul {
       color: white;
       outline: 1px solid red;
   }
-  
+  .flexContainer > div{
+    display: flex;
+    width: 33%;
+    padding: 15%;
+    flex-direction: row;
+    text-align:center;
+}
+div {
+    display: flex;
+    flex-direction: row;
+}
