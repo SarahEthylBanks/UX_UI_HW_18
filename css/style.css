@@ -98,11 +98,22 @@ footer ul {
     text-align:center;
 }
 .workGrid > div{
-    display: flex;
+    /* display: flex;
     width: 33%;
     padding: 15%;
     flex-direction: column;
+    text-align:center;*/
+
+
+    display: grid; 
+    grid-template-areas: 'BurntLatte NonProfit NonProfit';
+    width: 33%;
+    padding: 15%;
+    flex-direction: row;
     text-align:center;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: minmax(100px, auto);
+
 }
 div {
     display: flex;
