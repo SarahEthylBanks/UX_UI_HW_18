@@ -125,9 +125,10 @@ div {
 }
 
 h1 {
-    width: 33%;
+    height: 200px;
+    width: 170px;
     padding: center;
     flex-direction: column;
     text-align:center;
-    margin: 10 auto;
+    margin: 0 auto;
 }
