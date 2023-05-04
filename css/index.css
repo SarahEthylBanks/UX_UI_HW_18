@@ -6,11 +6,29 @@
     text-align:center;
 }
 .workGrid > div{
-    display: flex;
+    display: grid; 
+    grid-template-areas: 'BurntLatte NonProfit NonProfit';
     width: 33%;
     padding: 15%;
     flex-direction: row;
     text-align:center;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.grid-template-rows {
+    display: flex;
+    width: 33%;
+    padding: 15%;
+    text-align:center;
+}
+
+.grid-template-columns {
+    display: flex;
+    width: 33%;
+    padding: 15%;
+    text-align:center;
+    
 }
 div {
     display: flex;
