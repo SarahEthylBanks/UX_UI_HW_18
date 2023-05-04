@@ -107,7 +107,8 @@ footer ul {
 
     display: grid; 
     width: 33%;
-    padding: 15%;
+    /*padding: 15%;*/
+    padding: center;
     flex-direction: column;
     text-align:center;
     /*grid-auto-rows: minmax(100px, auto);*/
