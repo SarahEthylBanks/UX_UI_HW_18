@@ -93,9 +93,10 @@ footer ul {
   .flexContainer > div {
     display: flex;
     width: 10%;
-    padding: 20%;
+    padding: center;
     flex-direction: column;
     text-align:center;
+    margin-left: auto;
 }
 .workGrid > div{
     /* display: flex;
@@ -113,6 +114,7 @@ footer ul {
     text-align:center;
     /*grid-auto-rows: minmax(100px, auto);*/
     grid-auto-rows: 50px;
+    margin-left: auto;
     /*grid-template-columns: 200px 200px 200px;*/
     /*grid-template-areas: 'BurntLatte NonProfit NonProfit';*/
 
