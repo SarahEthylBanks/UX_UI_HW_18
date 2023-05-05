@@ -104,7 +104,7 @@ footer ul {
     display: grid; 
     width: 33%;
     padding: center;
-    flex-direction: column;
+    flex-direction: row;
     text-align:center;
     /*grid-auto-rows: 50px;*/
     margin: 0 auto;
