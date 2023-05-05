@@ -106,7 +106,7 @@ footer ul {
     padding: center;
     flex-direction: column;
     text-align:center;
-    grid-auto-rows: 50px;
+    /*grid-auto-rows: 50px;*/
     margin: 0 auto;
     grid-template-columns: 33% 33% 33%;
     grid-template-areas: 'BurntLatte NonProfit NonProfit';
