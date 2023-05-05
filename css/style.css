@@ -40,6 +40,7 @@ footer ul {
     display: inline-block;
     vertical-align:top;
     padding:center;
+    text-align: center;
 }
 
 /* extras down below, in case any were referenced */
