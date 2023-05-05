@@ -119,10 +119,21 @@ footer ul {
     grid-template-areas: 'BurntLatte NonProfit NonProfit';*/
 
 }
-div {
+/*div {
+    display: flex;
+    /*flex-direction: column;*//*
+    flex-direction: row;
+}*/
+.div1 {
     display: flex;
     /*flex-direction: column;*/
     flex-direction: row;
+    padding: center;
+}
+.div2 {
+    display: flex;
+    /*flex-direction: column;*/
+    flex-direction: column;
 }
 
 h1 {
@@ -146,17 +157,26 @@ img {
 }
 button {
     display: inline-block;
-    padding: 10px;
-    margin: 10px;
+    padding: center;
+    margin: 20px;
     width: minmax(50px auto);
     text-align: center;
     color: black;
     outline: 1px solid black;
     grid-auto-rows: minmax(50px, auto);}
 
+.centered {
+    display: flex;
+    width: auto;
+    padding: center;
+    flex-direction: column;
+    text-align:center;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 600) {
     div.flexContainer {
-        flex-direction: column;
+        flex-direction: row;
     }
     
     .grid-container {
