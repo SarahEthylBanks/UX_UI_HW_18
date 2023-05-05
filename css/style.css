@@ -39,8 +39,7 @@ footer {
 footer ul {
     display: inline-block;
     vertical-align:top;
-    padding: 40px;
-    /*padding:center;*/
+    padding:center;
 }
 
 /* extras down below, in case any were referenced */
