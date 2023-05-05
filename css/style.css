@@ -1,6 +1,7 @@
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    text-align: center;
 }
  /* Header Logo */
 div.logo { 
@@ -38,9 +39,8 @@ footer {
 
 footer ul {
     display: inline-block;
-    margin: center;
     vertical-align:top;
-    padding: 10px;
+    padding: 40px;
     /*padding:center;*/
 }
 
