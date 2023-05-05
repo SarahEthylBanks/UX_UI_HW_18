@@ -93,7 +93,7 @@ footer ul {
   }
   .flexContainer > div {
     display: flex;
-    width: 10%;
+    width: 50%;
     padding: center;
     flex-direction: column;
     text-align:center;
