@@ -11,7 +11,7 @@ div.logo {
  /* Navigation */
 }
 nav.inline-block {
-    width: 50%;  /* I changed it from 73% to 68%, a separate choice from the HW*/
+    width: 100%;  /* I changed it from 73% to 68%, a separate choice from the HW*/
 
     padding: 5%; /* I changed it from 1% to 5%, a separate choice from the HW*/
 }
