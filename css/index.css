@@ -10,7 +10,7 @@
     grid-template-areas: 'BurntLatte NonProfit NonProfit';
     width: 33%;
     padding: 15%;
-    /*flex-direction: row;*/
+    flex-direction: row;
     flex-direction: column;
     text-align:center;
     grid-template-columns: 200px 200px 200px;
