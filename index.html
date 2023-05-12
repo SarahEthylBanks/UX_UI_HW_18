@@ -2,15 +2,21 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+        <style>
+            body {
+                font-family: 'Source Sans Pro';font-size: 22px;
+            }
+        </style>
         <title> Sarah Banks Portfolio </title>
     </head>
     <body>
 
         <header class ="Navigation">
 
-            <div class="header logo">
+        <!--   <div class="header logo">
                 <img src="images/logoportfolio.png"> <!-- made modification, by taking out "UX_UI_HW_17/" in this line-->
-            </div>
+            <!-- </div> --> 
 
 <!-- section below: includes header navigation, with buttons "Home" "About" "Contact" "Work" -->
             <!-- <nav class="inline-block">
@@ -32,6 +38,10 @@
         </header>     -->
 
             <div class="topnav">
+                <a class="active"  href="header logo">
+                    <img src="images/logoportfolio.png"> <!-- made modification, by taking out "UX_UI_HW_17/" in this line-->
+                </a>
+
                 <a class="active" href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#work">Work</a>
@@ -46,15 +56,34 @@
             <div class= "div2">
                 <div class= "content">
                     <img src ="images/portraitforportfolio.png"><!--I also removed the same section, as line 13-->
-                    <p>
+                    <!--<p>
                         I'm an UX designer 
                         I aim to create helpful user experiences, in all forms of digital products.
                     </p>
                     <button class="centered"> 
                         See My Work...
-                    </button>
+                    </button>-->
                 </div>
             </div> 
+            <div class="div2">  <!-- added in another element with class div2, to try and separate the image png, from written content-->
+                <div class="content">
+                    <p>
+                        I'm an UX designer 
+                        I aim to create helpful user experiences, in all forms of digital products.
+                    </p>
+                    <!-- <button class="centered"> -->
+                    <button id="SeeMyWork">
+                        See My Work...
+                    </button>
+                    
+                    <script>
+                        document.getElementById("SeeMyWork").addEventListener("click", myFunction);
+                        function myFunction() {
+                        alert ("Do you wish to be redirrected to see my work?");}
+                    </script> <!-- this code seems to work, but it doesn't seem to work in the js file-->
+
+                </div>
+            </div>
         </section>
 
 

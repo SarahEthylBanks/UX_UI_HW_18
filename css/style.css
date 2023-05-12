@@ -23,30 +23,32 @@ ul {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #E9A556;
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 37px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
+  text-decoration: none; border-bottom:1px solid black;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  /*background-color: #7e8885;*/
+  text-decoration: 2px;
+  color: rgb(0, 0, 0);
 }
 
 /* Right-aligned section inside the top navigation */
@@ -65,12 +67,18 @@ ul {
 /*   */
  /* Hero Image */
 .heroimg {
-    height: 600px;
-    padding: center;
+    height: 650px;
+    padding: 30px 16px;
 }
 
 .content {
     width: 300px; /*changed from 500px to 300px, which was assigned in HW */
+    margin: 0 auto;
+
+    display: flex;  /*added in from the workGrid section, to try and implement rows */
+    padding: center;
+    flex-direction: column;
+    text-align:center;
     margin: 0 auto;
 }
 
@@ -130,6 +138,7 @@ footer ul {
       margin: 15px;
       width: minmax(50px);
       text-align: center;
+      font-size: 37px;
       color: orange;
       /*outline: 1px solid red;*/
       grid-auto-rows: minmax(50px, auto);
@@ -203,6 +212,7 @@ button {
     padding: center;
     margin: 20px;
     width: minmax(50px auto);
+    font-size: 21px;
     text-align: center;
     color: black;
     outline: 1px solid black;
